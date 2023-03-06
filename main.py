@@ -1,4 +1,2 @@
-import webbrowser
-if __name__ == '__main__':
-    url = input('type an url: ')
-    webbrowser.open(url)
+from playsound import playsound
+playsound('/SEM4/PPY/pjatk_python_1/test.mp3')
